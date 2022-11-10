@@ -139,7 +139,7 @@ Potential threat vectors incude the following:
   * Hacktivists
   * State-Sponsored attackers
 
-Of these we are most interested in Malicious software, software bugs, and all outsider threats.
+*** Refer to this list when it comes to answering questions in Task 3 `README.md`***
 
 ---
 
