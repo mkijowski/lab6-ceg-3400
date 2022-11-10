@@ -8,10 +8,11 @@ Table of contents:
 * [Rubric](LAB6-INSTRUCTIONS.md#rubric)
 * [Preparation](LAB6-INSTRUCTIONS.md#preparation)
 * [Task 1: Home sweet home](LAB6-INSTRUCTIONS.md#task-1-home-sweet-home)
-* [Task 2: Guess who](LAB6-INSTRUCTIONS.md#task-2-guess-who)
-* [Task 3: Eventually](LAB6-INSTRUCTIONS.md#task-3-eventually)
-* [Task 4: Impact](LAB6-INSTRUCTIONS.md#task-4-impact)
-* [Task 5: Risky business](LAB6-INSTRUCTIONS.md#task-5-risky-business)
+* [Task 2: Platform Inventory](LAB6-INSTRUCTIONS.md#task-2-platform-inventory)
+* [Task 3: Guess who](LAB6-INSTRUCTIONS.md#task-3-guess-who)
+* [Task 4: Eventually](LAB6-INSTRUCTIONS.md#task-4-eventually)
+* [Task 5: Impact](LAB6-INSTRUCTIONS.md#task-5-impact)
+* [Task 6: Risky business](LAB6-INSTRUCTIONS.md#task-6-risky-business)
 
 ---
 
@@ -38,11 +39,12 @@ special publication.
 | --- | --- |
 | 10 commits | 10 |
 | Good markdown style | 20 |
-| Task 1 | 30 |
-| Task 2 | 30 | 
-| Task 3 | 30 |
-| Task 4 | 30 |
-| Task 5 | 30 |
+| Task 1 | 20 |
+| Task 2 | 20 | 
+| Task 3 | 20 |
+| Task 4 | 20 |
+| Task 5 | 20 |
+| Task 6 | 20 |
 
 ---
 
@@ -92,8 +94,7 @@ Identify the data and resources you are protecting.  This involves three steps:
    just get a count/list).  If you live on campus or anywhere else that you do NOT have permission, 
    perform the below alternate assignment.
    * Manually count all networked devices you own, and estimate the number of devices that likely share the same network 
-     (assume most people on average have a similar number of devices you do).  List ***3*** dream devices that would assist you in completing
-     your organizations goal of graduating.
+     (assume most people on average have a similar number of devices as you do).  List ***3*** dream devices that would assist you      in completing your organizations goal of graduating.
 2. Make a list of all online accounts you hold that have either a 
    credit card attached to them, or data for/about you beyond basic 
    directory information (name, email, title, general location are all directory info).  
@@ -106,7 +107,23 @@ With the above information gathered, answer all questions in `README.md`
 
 ---
 
-### Task 2: Guess who
+### Task 2: Platform Inventory
+
+Identify the following:
+
+* 3 Software platforms in use by your "company" that are required to meet your organizations goals
+  * Identify these by CPE including version info and web links via the [NVD CPE Search](https://nvd.nist.gov/products/cpe/search)
+* 1 CVE that affect each of these these software platforms (ideally from this year, looking for a total of 3 CVE's)
+* 1 CWE from the [top 25 software weaknesses 2022](https://cwe.mitre.org/top25/archive/2022/2022_cwe_top25.html) that 
+  you have put into code.
+  * Identify the weakness in your own words, what your experience (code) was that fell prey to this weakness, 
+    and how you might have prevented or fixed this.
+* The top [MITRE ATT&CK](https://attack.mitre.org/) *Reconnaisance* technique that is most concerning to your organization
+
+
+---
+
+### Task 3: Guess who
 
 Potential threat vectors incude the following:
   
@@ -124,16 +141,9 @@ Potential threat vectors incude the following:
 
 Of these we are most interested in Malicious software, software bugs, and all outsider threats.
 
-Identify 3 CPE's for software sofware on one of your primary 
-computing devices that are critical for your organization to complete its
-mission (you graduating). Look each of these up in the [NVD CPE Search](https://nvd.nist.gov/products/cpe/search),
-for this exercise look at several recent versions of the software in question.
-
-With this information gathered, answer all questions in `README.md`.
-
 ---
 
-### Task 3: Eventually
+### Task 4: Eventually
 
 Read through Table E-2 and E-3. Look up the following Threat Events and state their relevance
 to your organization (see table E-4) and the likelihood of threat event occuring (table G-2).
@@ -164,7 +174,7 @@ Use a 0-10 scale.
 
 ---
 
-### Task 4: Impact 
+### Task 5: Impact 
 
 Measure the impact of each of the above threat events using the 0-10 scale found in 
 table H-3.
@@ -172,7 +182,7 @@ table H-3.
 
 ---
 
-### Task 5: Risky business
+### Task 6: Risky business
 
 Using table I-2 assign a level of risk (0-10) based on the *Likelihood* and *Impact* 
 of each threat event.
