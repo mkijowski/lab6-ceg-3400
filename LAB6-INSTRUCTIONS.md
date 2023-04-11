@@ -68,21 +68,6 @@ This risk assessment should include all devices that are owned by the student an
 of the student's home network.  It can include any other devices on the network
 that you have obtained permission to include in this document.
 
-Assumptions and constraints:
-Threat sources as discussed in class:
-  
-  * Malicious software
-  * Software Bugs
-  * Insider Threats (trusted person with or without intent to do harm)
-  * Outsider threats including ALL of the following:
-    * Hackers
-    * Crackers
-    * Script Kiddie
-    * Cyber Criminals
-    * Cyber Terrorists
-    * Hacktivists
-    * State-Sponsored attackers
-
 ---
 
 ### Task 1: `/home` sweet `/home`
@@ -114,12 +99,7 @@ Identify the following:
 * 3 Software platforms in use by your "company" that are required to meet your organizations goals
   * Identify these by CPE including version info and web links via the [NVD CPE Search](https://nvd.nist.gov/products/cpe/search)
 * 1 CVE that affect each of these these software platforms (ideally from this year, looking for a total of 3 CVE's)
-* 1 CWE from the [top 25 software weaknesses 2022](https://cwe.mitre.org/top25/archive/2022/2022_cwe_top25.html) that 
-  you have put into code.
-  * Identify the weakness in your own words, what your experience (code) was that fell prey to this weakness, 
-    and how you might have prevented or fixed this.
 * The top [MITRE ATT&CK](https://attack.mitre.org/) *Reconnaisance* technique that is most concerning to your organization
-
 
 ---
 

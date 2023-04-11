@@ -44,10 +44,6 @@ Description
 
 Description
 
-#### [The top 25 CWE that you fell prey to](link-to-cwe.com)
-
-Description and writeup
-
 #### [Top MITRE recon ATT&CK technique](link-to-technique)
 
 Description and writeup as to why
@@ -81,25 +77,25 @@ Description and writeup as to why
 Please get full name of threat event from instructions.  Use the 0-10 scale 
 for all likelihood, impact, and risk fields.
 
-| **Threat Event**        | **Likelihood** | **Impact** | **Risk** |
-| ---                     | ---            | ---        | ---      |
-| Network recon           |                |            |          |
-| Network Sniffing        |                |            |          |
-| Spear Phishing          |                |            |          |
-| Exploit IT configuration|                |            |          |
+| **Threat Event**         | **Likelihood** | **Impact** | **Risk** |
+| ---                      | ---            | ---        | ---      |
+| Network recon            |                |            |          |
+| Network Sniffing         |                |            |          |
+| Spear Phishing           |                |            |          |
+| Exploit IT configuration |                |            |          |
 | Exploit new vulnerability|                |            |          |
-| Denial of Service       |                |            |          |
-| Integrity loss of data  |                |            |          |
-| Unauthorized disclosure |                |            |          |
-| Obtain sensitive data   |                |            |          |
-| Obfuscate actions       |                |            |          |
-| ***non-adversarial***   | ---            | ---        | ---      |
-| Mishandling data        |                |            |          |
+| Denial of Service        |                |            |          |
+| Integrity loss of data   |                |            |          |
+| Unauthorized disclosure  |                |            |          |
+| Obtain sensitive data    |                |            |          |
+| Obfuscate actions        |                |            |          |
+| ***non-adversarial***    | ---            | ---        | ---      |
+| Mishandling data         |                |            |          |
 | Communications contention|                |            |          |
-| Unreadable display      |                |            |          |
-| Natural disaster        |                |            |          |
-| Software vulnerability  |                |            |          |
-| Disk Error              |                |            |          |
+| Unreadable display       |                |            |          |
+| Natural disaster         |                |            |          |
+| Software vulnerability   |                |            |          |
+| Disk Error               |                |            |          |
 
 ---
 
