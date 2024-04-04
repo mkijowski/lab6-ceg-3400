@@ -7,8 +7,8 @@
 Answer the following:
 
 * What are all CIDR's in use in your home network?
-* List all IP addresses that respond to a basic nmap scan: 
-* Can you identify all devices on your network?
+* List all IP addresses that respond to a basic nmap scan [ALTERNATIVE: manually count ALL TCP/IP devices you own and mulitply by the number of people living within your building or a 500ft radius (whichever is bigger).]
+* Can you identify all devices on your network? [ALTERNATIVE: what would the CIDR need to be to house the above number of devices?]
 * How many online accounts and social media platforms are you on
   that hold non-trivial data about you?
 * How many of these are critical for your organizations business goals?
@@ -29,8 +29,10 @@ Answer the following:
   3. [third cpe](thrid.com)
 * Why might having the CPE lookup for your most critical software be important
   for an organization to mitigate risk?
+* Which CPE has the most CVE's since Jan 1, 2023?  How many?
+* What is the highest CVSS score of any 2024 CVE related to one of your CPE's?  Link the CVE.
 
-* My three vulnerabilities (CVE's) (please provide both a link and a common name, and a summary of each):
+* My three vulnerabilities (CVE's) (please provide both a link and a common name, a CVSS score, and a summary of each):
 
 ##### [first cve common name](www.first-cve-link.com)
 
@@ -56,19 +58,19 @@ Description and writeup as to why
   1. most likely
   2. 
   3. least likely
-* Why did you choose these three?
+* Why did you choose these three and rank them as you did?
 
-* List the top three threat vectors based on how likely they are to exploit your CWE above.
+* List the top three threat vectors based on how likely they are to exploit the CWE chosen for your homework.
   1. most likely
   2. 
   3. least likely
-* Why did you choose these three?
+* Why did you choose these three and rank them as you did?
 
 * List the top three threat vectors based on how likely they are to exploit your MITRE ATT&CK Recon technique above.
   1. most likely
   2. 
   3. least likely
-* Why did you choose these three?
+* Why did you choose these three and rank them as you did?
 
 ---
 
