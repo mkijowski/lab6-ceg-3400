@@ -88,7 +88,25 @@ Identify the data and resources you are protecting.  This involves three steps:
 4. List any personal electronic devices that you own that may not have shown 
    up in an nmap scan.  Wearable electronics and home automation devices might be included here (bluetooth, zwave, zigbee, home automation, etc.).
 
-With the above information gathered, answer all questions in `README.md`
+With the above information gathered, write a report in Section 1 of your `README.md` detailing the following:
+
+> Describe the results of your scan.  Be verbose and address all of the following:
+>
+> * What are all CIDR's in use in your home network?
+> * A count ofthe number of devices that respond (alternative, estimate how many devices are on your floor AND in your building if you are not permitted to perform the scan).
+> * Can you identify all devices on your network? [ALTERNATIVE: what would the CIDR need to be to house the above number of devices?]
+>
+> Describe your online presence detailing the following:
+>
+> * How many online accounts and social media platforms are you on
+>   that hold non-trivial data about you?
+> * How many of these are critical for your organizations business goals?  
+> * How do you feel about the number of non-business critical accounts that have more than directory information about you?
+> * Do you know the Authentication policies of these critical accounts?
+>   * List all primary and secondary authentication methods for your most 
+>     important account, including non password related reset options 
+>    that might be vulnerable to an attacker.
+
 
 ---
 
@@ -96,20 +114,28 @@ With the above information gathered, answer all questions in `README.md`
 
 Identify the following:
 
-* 3 Software platforms in use by your "company" that are required to meet your organizations goals
-  * Identify these by CPE including version info and web links via the [NVD CPE Search](https://nvd.nist.gov/products/cpe/search)
-* 1 CVE that affect each of these these software platforms (ideally from this year, looking for a total of 3 CVE's)
-* The top [MITRE ATT&CK](https://attack.mitre.org/) *Reconnaisance* technique that is most concerning to your organization
+* Review the 5 real CPE's from lab 5 that make up your laptop software stack.
+* Identify the most recent CVE that affect each of these these software platforms (ideally from this year, looking for a total of 5 CVE's)
+* The top [MITRE ATT&CK](https://attack.mitre.org/) *Reconnaisance* or *Initial Access* technique that is most concerning to your organization
+
+Write a report on the following in your `README.md`
+
+> * List your 5 platforms and the 5 CVE's you identified with CVSS scores.
+> * Which of your CPEs has the most CVE's since Jan 1, 2024?  How many?
+> * What is the highest CVSS score of any 2024 CVE related to one of your CPE's?  Link the CVE.
+> * Why might having the CPE lookup for your most critical software be important
+>   for an organization to mitigate risk?
+> 
+> List your most concerning MITRE ATT&CK technique and why you chose it
 
 ---
 
 ### Task 3: Guess who
 
-Potential threat vectors incude the following:
+Potential adversarial threat vectors include the following:
   
 * Malicious software
-* Software Bugs
-* Insider Threats (trusted person with or without intent to do harm)
+* Insider Threats (trusted person with intent to do harm)
 * Outsider threats including ALL of the following:
   * Hackers
   * Crackers
@@ -119,7 +145,12 @@ Potential threat vectors incude the following:
   * Hacktivists
   * State-Sponsored attackers
 
-*** Refer to this list when it comes to answering questions in Task 3 `README.md`***
+> In your `README.md`, list all of the adversarial threat actors above that might have the capability to 
+> perform your chosen MITRE ATT&CK technique and why you believe they have that capability.
+>
+> List the top three non-adversarial threat events of concern to your organization (from the NIST reading appendix E-3)
+> and describe why they are of concern to you.  Develop one strategy / policy / purchase to mitigate one of these threat
+> events and describe it (and how or why it mitigates that event).
 
 ---
 
@@ -159,7 +190,6 @@ Use a 0-10 scale.
 Measure the impact of each of the above threat events using the 0-10 scale found in 
 table H-3.
 
-
 ---
 
 ### Task 6: Risky business
@@ -167,6 +197,4 @@ table H-3.
 Using table I-2 assign a level of risk (0-10) based on the *Likelihood* and *Impact* 
 of each threat event.
 
-Answer all questions for tasks 3-5 in the `README.md`
-
-
+> Answer all questions for tasks 4-5 in the `README.md`
