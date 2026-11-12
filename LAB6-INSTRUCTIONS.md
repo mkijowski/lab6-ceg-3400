@@ -115,7 +115,7 @@ Identify the data and resources you are protecting.  This involves four steps:
 4. List any personal electronic devices that you own that may not have shown 
    up in an nmap scan.  Wearable electronics and home automation devices might be included here (bluetooth, zwave, zigbee, home automation, etc.).
 
-With the above information gathered, write a report in the Task 1 section of your `README.md` detailing the following:
+With the above information gathered, write a report in Section 1 of your `README.md` detailing the following:
 
 > Describe the results of your scan.  Be verbose and address all of the following:
 >
