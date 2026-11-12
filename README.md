@@ -2,82 +2,34 @@
 
 ## Name:
 
+### Introduction
+
+Report here.
+
+---
+
 ### Task 1: `/home` sweet `/home`
 
-Answer the following:
-
-* What are all CIDR's in use in your home network?
-* List all IP addresses that respond to a basic nmap scan [ALTERNATIVE: manually count ALL TCP/IP devices you own and mulitply by the number of people living within your building or a 500ft radius (whichever is bigger).]
-* Can you identify all devices on your network? [ALTERNATIVE: what would the CIDR need to be to house the above number of devices?]
-* How many online accounts and social media platforms are you on
-  that hold non-trivial data about you?
-* How many of these are critical for your organizations business goals?
-* Do you know the Authentication policies of these critical accounts?
-  * List all primary and secondary authentication methods for your most 
-    important account, including non password related reset options 
-    that might be vulnerable to an attacker.
+Report here.
 
 ---
 
 ### Task 2: Platform Inventory
 
-Answer the following:
-
-* My three Platforms (CPE's) (please provide both a link and a common name/version):
-  1. [first cpe common name](www.first-cpe-link.com)
-  2. [second cpe](second.com) 
-  3. [third cpe](thrid.com)
-* Why might having the CPE lookup for your most critical software be important
-  for an organization to mitigate risk?
-* Which CPE has the most CVE's since Jan 1, 2023?  How many?
-* What is the highest CVSS score of any 2024 CVE related to one of your CPE's?  Link the CVE.
-
-* My three vulnerabilities (CVE's) (please provide both a link and a common name, a CVSS score, and a summary of each):
-
-##### [first cve common name](www.first-cve-link.com)
-
-Description
-
-##### [second cve common name](www.second-cve-link.com)
-
-Description
-
-##### [third cve common name](www.third-cve-link.com)
-
-Description
-
-#### [Top MITRE recon ATT&CK technique](link-to-technique)
-
-Description and writeup as to why
+Report here.
 
 ---
 
 ### Task 3: Guess who
 
-* List the top three threat vectors based on how likely they are to exploit your CPE/CVE's above.
-  1. most likely
-  2. 
-  3. least likely
-* Why did you choose these three and rank them as you did?
-
-* List the top three threat vectors based on how likely they are to exploit the CWE chosen for your homework.
-  1. most likely
-  2. 
-  3. least likely
-* Why did you choose these three and rank them as you did?
-
-* List the top three threat vectors based on how likely they are to exploit your MITRE ATT&CK Recon technique above.
-  1. most likely
-  2. 
-  3. least likely
-* Why did you choose these three and rank them as you did?
+Report here.
 
 ---
 
-### Task 4, 5, & 6 chart:
+### Tasks 4, 5, 6: Threat Event Scoring
 
 Please get full name of threat event from instructions.  Use the 0-10 scale 
-for all likelihood, impact, and risk fields.
+for all likelihood (Task 4), impact (Task 5), and risk (Task 6) fields.
 
 | **Threat Event**         | **Likelihood** | **Impact** | **Risk** |
 | ---                      | ---            | ---        | ---      |
@@ -107,21 +59,22 @@ for all likelihood, impact, and risk fields.
 2. Why did you choose this threat event?
 3. Were there any other threat events that your organization should be concerned about?  
 4. What are the pros and cons of using a list of threat events such as the one included
-   in the NIST 800-20 tables E-2 and E-3?
+   in the NIST 800-30 tables E-2 and E-3?
 
 ---
 
 ### Task 5: Impact
 
-There are no further questions for task 4.
+1. What threat events were hardest to determine the likelihood and impact for? Why?
 
 ---
 
 ### Task 6: Risky business
 
 1. Add up all numbers in your risk column and list it here:
-2. What threat events were hardest to determine the likelihood, and impact for? Why?
-3. What areas would you target for risk mitigation?
+2. Rank your top five risks from highest to lowest (include each risk score and explain
+   any ties).  Which of these exceed Your Name Inc.'s risk tolerance?
+3. For your highest ranked risk, choose a risk response (accept, avoid, mitigate, or
+   transfer/share) and justify it.  If you mitigate, describe your strategy / policy /
+   purchase and how it reduces the likelihood or impact of that event.
 4. What was the hardest part of this assessment (for you) and why?
-
-
