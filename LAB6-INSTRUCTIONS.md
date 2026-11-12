@@ -37,21 +37,6 @@ special publication, and skim Appendices D through I.  The tables used in this l
 
 ---
 
-#### Rubric
-| Item | # Points|
-| --- | --- |
-| 10 commits | 10 |
-| Good markdown style | 20 |
-| Introduction | 10 |
-| Task 1 | 20 |
-| Task 2 | 20 | 
-| Task 3 | 20 |
-| Task 4 | 20 |
-| Task 5 | 20 |
-| Task 6 | 20 |
-
----
-
 #### Preparation
 
 This lab will require all work be done on your home network.
